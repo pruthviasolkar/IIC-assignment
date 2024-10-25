@@ -1,5 +1,5 @@
 .sidebarlogo{
-    padding-inline: 30px;
+    
     padding-top: 50px;
     display: flex;
     justify-content: center;
@@ -22,7 +22,8 @@ ul{
     list-style-type: none;
     gap: 40px;
     margin: 0;
-    
+    position: relative;
+    right: 18px;
     align-self: center;
 }
 .navlinksidebar{
@@ -30,6 +31,7 @@ ul{
     align-content: center;
     align-self: center;
     display: flex;
+    justify-content: center;
     padding-top: 70px;
      
 }
@@ -118,4 +120,41 @@ left: 40px;
     }
     
   }
-  
+  /* Toggle Button Styling */
+.toggleButton {
+    display:none;
+
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    z-index: 1001;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+/* Sidebar Styling */
+.mainsidebar {
+    transition: transform 0.3s ease;
+}
+
+.mainsidebar.closed {
+    transform: translateX(-100%); /* Hide sidebar off-screen */
+}
+
+.mainsidebar.open {
+    transform: translateX(0); /* Slide sidebar into view */
+}
+
+/* Media Query for Mobile */
+@media (max-width: 768px) {
+    .toggleButton {
+        display: block;
+    }
+    .mainsidebar {
+        position: fixed;
+        height: 100vh;
+        z-index: 1000;
+    }
+}
