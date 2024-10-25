@@ -1,6 +1,8 @@
 import React from 'react'
 import "../rowacards1st/rowcards.css"
 export default function Rowcards() {
+   
+    
     return (
         <div>
             <div className='rowcards'>
@@ -115,7 +117,7 @@ export default function Rowcards() {
             <div className='searchbar'>
                 <div className='leftsearch'>
                     <div className='visitortxt'><img src="/Assets/person.png" alt="" /><h4>All Visitors</h4>  </div>
-                    <div className='mainsearch'> <div className='mainsearchoption'><img src="/Assets/Search.png" alt="" /> <h4>Search for Users</h4></div>
+                    <div className='mainsearch'> <div className='mainsearchoption'><img src="/Assets/Search.png" alt="" /> <input type="text" className=' ' placeholder='Search for Users' /></div>
                     </div>
                 </div>
                 <div className="rightsearch">

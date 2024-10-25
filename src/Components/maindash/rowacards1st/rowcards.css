@@ -296,7 +296,15 @@ span{
 }
 
 
-
+.mainsearchoption input:focus{
+    border: 1px #cf000000 solid !important;
+    border-radius: 50px;
+    width: 30vw;
+    
+}
+input::placeholder{
+    padding-left: 10px;
+}
 
 
 @media screen and (max-width: 900px) {
@@ -613,6 +621,12 @@ span{
         align-self: center;
     
     }
+    .mainsearchoption input:focus{
+        border: 1px #cf000000 solid !important;
+        border-radius: 50px;
+        width: 50vw;
+        
+    }
     
 }
 @media (min-width:901px)and (max-width: 1500px) {
@@ -649,3 +663,4 @@ span{
         align-self: center;
     }
 }
+
