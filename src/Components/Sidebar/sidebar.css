@@ -1,6 +1,8 @@
 .sidebarlogo{
     padding-inline: 30px;
     padding-top: 50px;
+    display: flex;
+    justify-content: center;
     padding-bottom: 70px;
 }
 .sidebarlogo img{
@@ -83,3 +85,37 @@ left: 40px;
     width: 100%;
     height: 100%;
 }
+
+@media screen and (max-width: 1600px) {
+    .sidebarlogo{
+        padding-inline: 0px;
+        padding-top: 50px;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 70px;
+    }
+    .sidebarlogo img{
+        width: 30px;
+        height: 30px;
+    }
+    .mainsidebar{
+        background-color: #ffffff;
+        min-width: 100px;
+       
+    }
+    ul{
+         display: flex;
+         flex-direction: column;
+          align-content: center;
+        align-items: center;
+        list-style-type: none;
+        gap: 40px;
+        margin: 0;
+        position: relative;
+        right: 10px;
+        
+        align-self: center;
+    }
+    
+  }
+  

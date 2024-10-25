@@ -4,6 +4,9 @@ export default function Rowcards() {
     return (
         <div>
             <div className='rowcards'>
+
+                <div className='cardgrp1'>
+
                 <div className='performance cardsofrow1'>
                     <div className='leftper'> <h4>Performance</h4><img src="/Assets/meter.png" alt="" /></div>
                     <div className='rightper'> 
@@ -42,8 +45,11 @@ export default function Rowcards() {
                     
                 </div>
 
+                </div>
+                
 
-                <div className='calls cardsofrow'>
+               <div className='cardgrp2'>
+               <div className='calls cardsofrow'>
                     <div className='maincard'>
                     <div className='totaltxt'>
                         <h4>Total Calls</h4>
@@ -101,7 +107,8 @@ export default function Rowcards() {
                     </div>
                     <div className='lastestdiv'><h2>Avg: <span>120 Secs</span></h2></div></div>
                     
-                </div>
+                </div> </div>
+                
             </div>
 
 

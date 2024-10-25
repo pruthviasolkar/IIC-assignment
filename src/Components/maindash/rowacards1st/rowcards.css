@@ -1,9 +1,15 @@
 .rowcards{
     display: flex;
-    gap: 30px;
+    gap: 10px;
 }
+.cardgrp1,.cardgrp2{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
 .cardsofrow{
-    width: 28%;
+    width: 22vw;
     height: 200.48px;
     background-color: #ffffff;
     border-radius: 8px;
@@ -18,7 +24,7 @@
     box-shadow: 2px 4px 20px rgba(149, 93, 240, 0.295); 
 }
 .cardsofrow1{
-    width: 28%;
+    width: 22vw;
     height: 200.48px;
     display: flex;
     color: #ffffff;
@@ -281,4 +287,308 @@ span{
     border-radius: 25px;
     color: #ffffff;
 
+}
+
+
+
+
+
+@media screen and (max-width: 900px) {
+    .rowcards{
+        display: flex;
+        gap: 10px;
+    }
+    .cardgrp1,.cardgrp2{
+        display: flex;
+
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .cardsofrow{
+        width: 43vw;
+        height: 200.48px;
+        background-color: #ffffff;
+        border-radius: 8px;
+        padding: 30px;
+        padding-block: 15px;
+        align-items: center;
+        align-content: center;
+        align-self: center;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        box-shadow: 2px 4px 20px rgba(149, 93, 240, 0.295); 
+    }
+    .cardsofrow1{
+        width: 43vw;
+        height: 200.48px;
+        display: flex;
+        color: #ffffff;
+        background-color: #2B3674;
+        border-radius: 8px;
+        text-align: left;
+        gap: 20px;
+        padding: 20px;
+        
+    }
+
+
+    .leftper h4{
+        font-size: 17px;
+        text-align: left;
+        margin-bottom: 10px;
+        
+    }
+    .rightper{
+        align-items: center;
+        align-content: center;
+        align-self: center;
+    }
+    .arrowtxt{
+        display: flex;
+        margin-bottom: 8px;
+    }
+    .arrownum{
+        margin-bottom: 13px;
+    }
+    .arrowtxt img{
+        width: 13px;
+        height: 14px;
+        margin-right: 5px;
+        align-self: center;
+    }
+    .cardsofrow1 h3{
+        font-size: 0.8rem;
+        margin-bottom: 0;
+    }
+    .cardsofrow1 h2{
+        font-size: 1.5rem;
+        margin-bottom: 0;
+    }
+    .totaltxt{
+        text-align: left;
+    }
+    .totaltxt h4{
+     font-size: 17px;
+     color: #9AA8D1;
+    }
+    .seconddiv{
+        display: flex;
+        justify-content: space-between;
+        gap:2vw;
+        text-align: left;
+    
+    }
+    .seconddiv h4{
+        font-size: 1.5rem;
+        font-weight: 700;
+        margin-bottom: 0;
+    }
+    .seconddiv h3{
+        font-size: 0.9;    
+        font-weight: 500;
+        color: #9AA8D1;
+        
+    }
+    .cardicon{
+        width: 10vw;
+        height:10vw;
+        border-radius: 100%;
+        display: flex;
+        justify-content: center;
+        background: linear-gradient(to bottom, #5142E033, #5142E000); 
+    }
+    .cardicon img{
+        width: 50%;
+        height:50%;
+        align-self: center;
+    }
+    .seconddiv span{
+        color: black;
+    }
+    .sec3 h2{
+      font-size: 0.7rem;
+      margin-bottom: 0;
+      color: #19BC55;
+    }
+    .sec3{
+        width: 78.5px;
+        height: 27.81px;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        align-self: center;
+         background-color: #19bc5533;
+         border-radius: 14px;
+         margin-left: 10px;
+    }
+    .sec3 img{
+        width: 12px;
+        height: 12px;
+        margin-right: 5px;
+    }
+    .sec1{
+        display: flex;
+     
+    }
+    .subtxtcard {
+        margin-top: 20px;
+    }
+    .lastdivcard {
+       margin-top: 10px;
+       display: flex;
+       gap: 25px;
+    }
+    .lastdivcard h2{
+      font-size: 0.9rem;
+      font-weight: 500;
+      color: #9AA8D1;
+      text-align: left;
+    }
+    .lastdivcard h2 span{
+        font-size: 14px;
+        font-weight: 500;
+        color: #000000;
+        text-align: left;
+        margin-bottom: 0;
+        align-self: center;
+      }
+      .lastsubdiv{
+        display: flex;
+      }
+      .lastsubdiv img{
+        width: 20px;
+        height: 20px;
+        margin-right: 8px;
+      }
+    .lastestdiv h2{
+        font-size: 13px;
+        text-align: left;
+        color: #9AA8D1;
+    }
+    span{
+        color: #000000;
+    }
+    .searchbar{
+        margin-top: 40px;
+        margin-bottom: 20px;
+        display: flex;
+        
+        justify-content: space-between;
+    }
+    .filteroption{
+        width: 149.55px;
+        height: 50px;
+        background-color: #ffffff;
+        border-radius: 10px;
+        display: flex;
+        justify-content: space-around;
+    
+    }
+    .filter h4{
+        margin-bottom: 0;
+        margin-right: 10px;
+        font-size: 14px;
+        align-self: center;
+    
+    }
+    .filteroption img{
+        width: 11px;
+        height: 8px;
+        align-self: center;
+    }
+    .filter{
+       display: flex;
+    }
+    .visitortxt{
+        display: flex;
+        align-items: center;
+        align-content: center;
+        align-self: center;
+    }
+    .visitortext img{
+        width: 20px;
+        height: 20px;
+    }
+    .visitortxt h4{
+        align-self: center;
+        margin-bottom: 0;
+        margin-left: 17px;
+        font-size: 18px;
+        color: #707EAE;
+    }
+    .leftsearch{
+        display: flex;
+       
+    }
+    .mainsearchoption{
+        width: 30vw;
+        height: 50px;
+        background-color: #ffffff;
+        border-radius: 53px;
+        display: flex;
+         padding-left: 30px;
+         box-shadow: 2px 4px 18px rgba(149, 93, 240, 0.212); 
+    
+    }
+    .mainsearch h4{
+        margin-bottom: 0;
+        color: #8F9BBA;
+        font-size: 15px;
+        align-self: center;
+        text-align: left;
+    
+    }
+    .mainsearchoption img{
+        width: 17px;
+        height: 17px;
+        margin-right: 10px;
+        align-self: center;
+    }
+    .mainsearch{
+       display: flex;
+       margin-left: 20px;
+       
+    }
+     
+    .dateoption{
+        width: 16vw;
+        height: 50px;
+        background-color: #ffffff;
+        border-radius: 10px;
+        display: flex;
+        padding: 5px 5px;
+        justify-content: space-around;
+    
+    }
+    .date h4{
+        margin-bottom: 0;
+        margin-right: 10px;
+        font-size: 0.8rem;
+        align-self: center;
+        color: #707EAE;
+    
+    }
+    .dateoption img{
+        width: 15px;
+        height: 15px;
+        align-self: center;
+    }
+    .date{
+       display: flex;
+       
+       gap: 20px;
+    }
+    .exportbtn{
+        width: 15vw;
+        height: 50px;
+        background: linear-gradient(to right, #4434DD, #8076EE); 
+        border-radius: 25px;
+        color: #ffffff;
+    
+    }
+    
 }

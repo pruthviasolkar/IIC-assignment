@@ -178,3 +178,111 @@
    display: flex;
 }
 
+
+@media screen and (max-width: 700px) {
+    .maindashheader{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-self: center;
+        align-items: center;
+        align-content: center;
+        padding-block: 40px;
+    }
+   .righthead{
+        display: flex;
+        margin-top: 20px;
+        align-self: center;
+        align-items: center;
+        align-content: center;
+        gap: 18px;
+    }
+
+    .leftpro{
+        display: flex;
+        align-self: center;
+        align-items: center;
+        align-content: center;
+        gap: 14px;
+    }
+    .livemark{
+        height: 10px;
+      width: 10px;
+      background-color: green; /* Green color for live */
+      border-radius: 50%; /* Makes it a circle */
+      display: inline-block;
+      margin-right: 8px; /* Space between dot and text */
+      box-shadow: 0 0 15px 5px rgba(0, 255, 0, 0.8); /* Stronger glow */   
+    }
+    .livediv{
+        background-color: #ffffff;
+        display: flex;
+        justify-content: center;
+        align-self: center;
+        align-items: center;
+        align-content: center;
+        width: 140px;
+        height: 66.19px;
+        gap: 15px;
+        border-radius: 10px;
+        padding-inline:20px ;
+        box-shadow: 2px 4px 20px rgba(149, 93, 240, 0.295);
+         
+    }
+    .livetext h2{
+        font-size: 16px;
+        color:#707EAE;
+        align-self: center;
+        align-content: center;
+        margin-bottom: 0;
+        
+    }
+    .livetext span{
+        color: black;
+    
+    }
+    .profilediv{
+        background-color: #ffffff;
+        display: flex;
+        justify-content: space-around;
+        align-self: center;
+        align-items: center;
+        align-content: center;
+        width: 200px;
+        height: 66.19px;
+        border-radius: 50px;
+        box-shadow: 2px 4px 20px rgba(149, 93, 240, 0.295); 
+    }
+    .proname h2{
+      font-size: 12px;
+      color: #2B3674;
+      margin-bottom: 4px;
+      
+    }
+    .proname h3{
+        font-size: 12px;
+        color: #9AA8D1;
+        
+    }
+    .proarrowbtn button{
+       height: 40px;
+       width: 40px;
+       align-self: center;
+       align-items: center;
+       align-content: center;
+       display: flex;
+       justify-content: center;
+       background-color: #9AA8D1;
+       border-radius: 100%;
+       border: none;
+    }
+    .proarrowbtn img{
+        width: 20px;
+        height: 19px;
+        align-self: center;
+    }
+    .proimg img{
+        border-radius: 100%;
+    }
+}
+
