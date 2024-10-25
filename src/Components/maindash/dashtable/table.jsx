@@ -13,7 +13,7 @@ function Tabledash() {
       email: 'john@example.com',
       source: 'Referral',
       type: 'New',
-      tags: ['Sales', 'Product Info',"Customer", "Interested"]
+      tags: ['Sales', 'Product ',"Customer", "Interested"]
     },
     {
       id: 2,
@@ -23,7 +23,7 @@ function Tabledash() {
       email: 'jane@example.com',
       source: 'Direct',
       type: 'Returning',
-      tags: ['Sales', 'Product Info',"Customer", "Interested"]
+      tags: ['Sales', 'Product ',"Customer", "Interested"]
     },
     {
       id: 3,
@@ -33,7 +33,7 @@ function Tabledash() {
       email: 'sam@example.com',
       source: 'Ad Campaign',
       type: 'New',
-      tags: ['Sales', 'Product Info',"Customer", "Interested"]
+      tags: ['Sales', 'Product ',"Customer", "Interested"]
     },
     {
         id: 4,
@@ -43,7 +43,7 @@ function Tabledash() {
         email: 'sam@example.com',
         source: 'Ad Campaign',
         type: 'New',
-        tags: ['Sales', 'Product Info',"Customer", "Interested"]
+        tags: ['Sales', 'Product ',"Customer", "Interested"]
       },
   ];
 

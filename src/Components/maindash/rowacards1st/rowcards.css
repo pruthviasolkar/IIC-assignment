@@ -307,7 +307,7 @@ span{
     }
     
     .cardsofrow{
-        width: 43vw;
+        width: 90vw;
         height: 200.48px;
         background-color: #ffffff;
         border-radius: 8px;
@@ -323,13 +323,14 @@ span{
         box-shadow: 2px 4px 20px rgba(149, 93, 240, 0.295); 
     }
     .cardsofrow1{
-        width: 43vw;
+        width: 90vw;
         height: 200.48px;
         display: flex;
         color: #ffffff;
         background-color: #2B3674;
         border-radius: 8px;
         text-align: left;
+        align-self: center;
         gap: 20px;
         padding: 20px;
         
@@ -378,7 +379,7 @@ span{
     .seconddiv{
         display: flex;
         justify-content: space-between;
-        gap:2vw;
+        gap:15vw;
         text-align: left;
     
     }
@@ -394,8 +395,8 @@ span{
         
     }
     .cardicon{
-        width: 10vw;
-        height:10vw;
+        width: 20vw;
+        height:20vw;
         border-radius: 100%;
         display: flex;
         justify-content: center;
@@ -477,6 +478,7 @@ span{
         margin-top: 40px;
         margin-bottom: 20px;
         display: flex;
+        flex-direction: column;
         
         justify-content: space-between;
     }
@@ -523,14 +525,18 @@ span{
     }
     .leftsearch{
         display: flex;
+        flex-direction: column;
        
     }
     .mainsearchoption{
-        width: 30vw;
+        width: 90vw;
         height: 50px;
         background-color: #ffffff;
         border-radius: 53px;
         display: flex;
+        margin-top: 20px;
+        align-self: center;
+        margin-left: 0;
          padding-left: 30px;
          box-shadow: 2px 4px 18px rgba(149, 93, 240, 0.212); 
     
@@ -556,7 +562,7 @@ span{
     }
      
     .dateoption{
-        width: 16vw;
+        width: 30vw;
         height: 50px;
         background-color: #ffffff;
         border-radius: 10px;
@@ -567,7 +573,7 @@ span{
     }
     .date h4{
         margin-bottom: 0;
-        margin-right: 10px;
+        margin-right: 0px;
         font-size: 0.8rem;
         align-self: center;
         color: #707EAE;
@@ -580,15 +586,16 @@ span{
     }
     .date{
        display: flex;
-       
-       gap: 20px;
+       justify-content: space-between;
+       margin-top: 20px;
     }
     .exportbtn{
-        width: 15vw;
-        height: 50px;
+        width: 25vw;
+        height: 30px;
         background: linear-gradient(to right, #4434DD, #8076EE); 
         border-radius: 25px;
         color: #ffffff;
+        align-self: center;
     
     }
     
