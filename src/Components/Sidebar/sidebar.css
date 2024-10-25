@@ -1,0 +1,85 @@
+.sidebarlogo{
+    padding-inline: 30px;
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+.sidebarlogo img{
+    width: 30px;
+    height: 30px;
+}
+.mainsidebar{
+    background-color: #ffffff;
+    width: 120px;
+   
+}
+ul{
+     display: flex;
+     flex-direction: column;
+      align-content: center;
+    align-items: center;
+    list-style-type: none;
+    gap: 40px;
+    margin: 0;
+    
+    align-self: center;
+}
+.navlinksidebar{
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    display: flex;
+    padding-top: 70px;
+     
+}
+ 
+ 
+li{
+    
+    align-items: center;
+    align-content: center;
+    align-self: center;
+}
+ 
+.navlinksidebar ul li .icondiv {
+    padding: 0px;
+    transition: background 0.3s, padding 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navlinksidebar ul li a.active .icondiv {
+    background: linear-gradient(to right, #4434DD, #8076EE); /* Purple background for active link */
+    padding: 13px;            /* Increase padding to make box larger */
+    border-radius: 8px; 
+    border-radius: 100%;  
+    box-shadow: 2px 4px 20px rgba(149, 93, 240, 0.568); /* Increased blur radius */   /* Optional: Rounded corners */
+}
+
+.navlinksidebar ul li a.active img {
+    width: 25px;              /* Keep icon size the same */
+}
+
+/* Hover Effect */
+.navlinksidebar ul li a:hover .icondiv {
+    background-color: #6c5ce7; /* Light purple hover */
+    padding: 13px;
+    border-radius: 10%;
+    
+    box-shadow: 2px 4px 20px rgba(149, 93, 240, 0.568); /* Increased blur radius */   /* Optional: Rounded corners */
+}
+.navlinksidebar ul li .icondiv:hover img {
+    filter: brightness(0) invert(1); /* Changes the icon to white */
+  }
+/* Base Icon Styling */
+.baseicon img,.icondiv img{
+    width: 30px;
+}
+.baseicon{
+position: fixed;
+bottom: 20px;
+left: 40px;
+}
+.icondiv{
+    width: 100%;
+    height: 100%;
+}

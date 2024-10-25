@@ -1,0 +1,138 @@
+/* Flex container for image and username */
+.user-info {
+    display: flex;
+    align-items: center; /* Vertically centers the image and username */
+  }
+  
+  /* Styling for the profile image */
+  .profile-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%; /* Makes the image round */
+    margin-right: 10px; /* Adds space between the image and username */
+  }
+  
+  /* Styling for tags */
+  .tag {
+    background-color: #9AA8D1;
+    padding: 6px 13px;
+    border-radius: 50px;
+    margin-right: 5px;
+    display: inline-block;
+    font-size: 15px;
+    color: white;
+  }
+  
+  /* Align all table headers and data to the left */
+  thead th, tbody td {
+    text-align: left; /* Ensures left alignment */
+    vertical-align: middle; /* Ensures vertical centering within the row */
+    padding: 11px; /* Adds padding for better spacing */
+  }
+  
+  /* Styling for table headers */
+  thead {
+    /* Light gray background for the header */
+    font-weight: bold;
+    font-size: 14px;
+     /* Adds a border between thead and tbody */
+  }
+  
+  /* Styling for table rows */
+  tbody td {
+    border-bottom: 1px solid #dee2e6; /* Adds border between rows */
+    font-size: 14px;
+  }
+  
+  /* Add hover effect to table rows */
+  tbody tr:hover {
+    background-color: #f1f1f1; /* Light background on hover */
+  }
+  
+  /* Optionally, remove default table padding for a cleaner look */
+  table {
+    width: 100%;
+    margin-top: 0;
+     /* Remove space between borders */
+  }
+  
+  /* Font settings for the table */
+  thead, tbody {
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+  }
+  
+  /* Ensure the table headers are aligned properly */
+  thead {
+    text-align: left;
+    align-self: center;
+    vertical-align: middle;
+  }
+  
+  /* Optional: Add some padding to the table cells for better appearance */
+  
+   
+   
+  .custom-table thead th {
+    background-color: #e3e4f58c; /* Lighter background for header */
+    color: #2B3674; /* Darker font color for contrast */
+    font-size: 16px;
+    font-weight: bold;
+    padding: 18px 15px; /* Add padding for space */
+      /* Add bottom border */
+    text-align: left;
+  }
+  /* Optional: Add alternate row coloring for better readability */
+  .custom-table tbody td {
+    padding: 18px 15px;
+    
+  }
+  .custom-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 15px; /* Adds space between rows */
+  }
+  .custom-table tbody tr {
+    background-color: #ffffff;
+     
+    box-shadow: 2px 4px 20px rgba(149, 93, 240, 0.295); /* Subtle shadow */
+    border-radius: 100px !important; /* Rounded corners for rows */
+    overflow: hidden; /* Ensures rounded corners apply */
+  }
+  .user-info span{
+    font-weight: 700;
+    color: #2B3674;
+    font-size: 18px;
+  }
+  .custom-table tbody td{
+    font-size: 16px;
+    font-weight: 700;
+    color: #707EAE;
+
+  }
+  .custom-table thead tr th:first-child {
+    border-top-left-radius: 8px; 
+    border-bottom-left-radius: 8px; /* Round the top left corner of the header */
+  }
+  
+  .custom-table thead tr th:last-child {
+    border-top-right-radius: 8px; 
+    border-bottom-right-radius: 8px; /* Round the top right corner of the header */
+  }
+  .custom-table tbody tr td:first-child {
+    border-top-left-radius: 8px; /* Round the top left corner */
+    border-bottom-left-radius: 8px; /* Round the bottom left corner */
+  }
+  
+  .custom-table tbody tr td:last-child {
+    border-top-right-radius: 8px; /* Round the top right corner */
+    border-bottom-right-radius: 8px; /* Round the bottom right corner */
+  }
+  
+  /* Padding and Border for Cells */
+  .custom-table tbody td,
+  .custom-table thead th {
+    padding: 12px 15px; /* Padding for cells and headers */
+    border: 1px solid transparent; /* Keeps layout intact */
+  }
+  
