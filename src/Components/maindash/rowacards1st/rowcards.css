@@ -262,6 +262,12 @@ span{
     justify-content: space-around;
 
 }
+.seccard h2{
+    color: #FF4646;
+}
+.seccard{
+    background-color: #ff46463a;
+}
 .date h4{
     margin-bottom: 0;
     margin-right: 10px;
@@ -608,4 +614,38 @@ span{
     
     }
     
+}
+@media (min-width:901px)and (max-width: 1500px) {
+    .seconddiv{
+        display: flex;
+        justify-content: space-between;
+        gap:2vw;
+         
+        text-align: left;
+    
+    }
+    .seconddiv h4{
+        font-size: 1.5rem;
+        font-weight: 700;
+        margin-bottom: 0;
+    }
+    .seconddiv h3{
+        font-size: 0.9;    
+        font-weight: 500;
+        color: #9AA8D1;
+        
+    }
+    .cardicon{
+        width: 5vw;
+        height:5vw;
+        border-radius: 100%;
+        display: flex;
+        justify-content: center;
+        background: linear-gradient(to bottom, #5142E033, #5142E000); 
+    }
+    .cardicon img{
+        width: 50%;
+        height:50%;
+        align-self: center;
+    }
 }
