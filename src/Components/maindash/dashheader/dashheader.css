@@ -284,5 +284,17 @@
     .proimg img{
         border-radius: 100%;
     }
+    .filter{
+        display: flex;
+        flex-direction: column;
+         
+        
+         
+    }
+    .filter h4{
+         margin-bottom: 10px !important;
+         text-align: left !important;
+    }
+    
 }
 
