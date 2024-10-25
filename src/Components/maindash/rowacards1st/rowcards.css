@@ -296,12 +296,13 @@ span{
 @media screen and (max-width: 900px) {
     .rowcards{
         display: flex;
+        flex-direction: column;
         gap: 10px;
     }
     .cardgrp1,.cardgrp2{
         display: flex;
 
-        flex-direction:row;
+        flex-direction: column;
         gap: 10px;
     }
     
