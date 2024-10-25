@@ -30,7 +30,7 @@ export default function Rowcards() {
                                 <div className='sec2'><h4>5,687</h4>
 
                                 </div>
-                                <div className='sec3'><img src="/Assets/shape.png" alt="" /><h2>20.50%</h2>
+                                <div className='sec3'><img src="/Assets/Shape.png" alt="" /><h2>20.50%</h2>
                                 </div>
 
                             </div>
@@ -60,7 +60,7 @@ export default function Rowcards() {
                                 <div className='sec2'><h4>7,587</h4>
 
                                 </div>
-                                <div className='sec3'><img src="/Assets/shape.png" alt="" /><h2>20.50%</h2>
+                                <div className='sec3 seccard'><img src="/Assets/downarrow.png" alt="" /><h2>2.78%</h2>
                                 </div>
 
                             </div>
@@ -91,7 +91,7 @@ export default function Rowcards() {
                                 <div className='sec2'><h4>8,658</h4>
 
                                 </div>
-                                <div className='sec3'><img src="/Assets/shape.png" alt="" /><h2>20.50%</h2>
+                                <div className='sec3'><img src="/Assets/Shape.png" alt="" /><h2>20.50%</h2>
                                 </div>
 
                             </div>

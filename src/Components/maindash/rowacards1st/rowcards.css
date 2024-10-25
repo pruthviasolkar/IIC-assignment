@@ -415,6 +415,12 @@ span{
       margin-bottom: 0;
       color: #19BC55;
     }
+    .seccard h2{
+        color: #FF4646;
+    }
+    .seccard{
+        background-color: #ff46463a;
+    }
     .sec3{
         width: 78.5px;
         height: 27.81px;
@@ -426,6 +432,9 @@ span{
          background-color: #19bc5533;
          border-radius: 14px;
          margin-left: 10px;
+    }
+    .seccard{
+        background-color: #ff46463a;
     }
     .sec3 img{
         width: 12px;
